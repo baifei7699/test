@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+<configuration>
+	<property>
+        <name>hadoop.tmp.dir</name>
+        <value>/usr/local/hadoop-1.2.1/tmp</value>
+        <description>A base for other temporary directories.</description>
+    </property>
+    <!-- file system properties -->
+    <property>
+        <name>fs.default.name</name>
+        <value>hdfs://192.168.36.200:9000</value>
+    </property>
+</configuration>
